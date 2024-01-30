@@ -1,0 +1,4 @@
+#!/bin/bash
+IFS=':' read -ra path_array <<< "$PATH"
+echo "${#path_array[@]}"
+
