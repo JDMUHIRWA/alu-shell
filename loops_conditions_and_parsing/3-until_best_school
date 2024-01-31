@@ -3,8 +3,9 @@
 
 count=1
 END=10
-until [ $count -le $END ]
-do
-echo "Best School"
-((count++))
+
+until [ $count -le $END ]; do
+    echo "Best School"
+    ((count++))
 done
+
