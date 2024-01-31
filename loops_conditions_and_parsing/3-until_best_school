@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #until loop
 
-count=1
+count=0
 END=10
 until [ $count -le $END ]
 do
