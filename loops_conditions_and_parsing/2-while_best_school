@@ -2,7 +2,8 @@
 #while loop
 
 count=1
-while [ $count -le 10 ]
+END=10
+while [ $count -le $END ]
 do
 echo "Best School"
 ((count++))
